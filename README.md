@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https:/Maksim840.io/rsschool-cv/cv
+https://Maksim840.github.io/rsschool-cv/cv
