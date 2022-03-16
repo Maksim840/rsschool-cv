@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/index.css">
     <title>Resume</title>
 </head>
@@ -17,7 +17,7 @@
             </div>
             <article class="Contact">
                 <div class="contact-div">
-                    <p class="contact-p"> Contacts_ </p>
+                    <p class="contact-p" id="cont"> Contacts_ </p>
                 </div>
                 <div class="phone">
                     <p class="pho"> Phone: <br> _+375447394453 </p>
@@ -30,21 +30,22 @@
                 </div>
             </article>
         </section>
-        <section class="right-side">
-            <header class="name">
+        <section class="right-side">             
+            <div class="name">
                 <p class="FIO">Maksim_ <br> Miksha</p>
-            </header>
+            </div>
             <article class="description">
                 <p class="des">Mehmat student (web-dev) 2 course</p>
             </article>
             <h3 class="">Skills_</h3>
-            <article class="skills">
+            <article class="skills" id="skill">
                 <div class="list">
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>C++</li>
                         <li>Photoshop</li>
+                        <li>Java</li>
                     </ul>
                 </div>
                 <div class="list">
@@ -53,12 +54,13 @@
                         <li>Git</li>
                         <li>Figma</li>
                         <li>English: B1</li>
+                        <li>PHP</li>
                     </ul>
                 </div>
             </article>
 
 
-            <h2 class="">About myself_</h2>
+            <h2 id="myself">About myself_</h2>
             <article class="experience">
                 <div class="list1">
                     <ul>
@@ -66,7 +68,7 @@
                         <li>Teamwork skills</li>
                     </ul>
                 </div>
-                <div class="list3">
+                <div class="list1">
                     <ul>
                         <li>A responsibility</li>
                         <li>Good concentration</li>
@@ -77,7 +79,7 @@
                 <h4 class="">Code Example_</h4>
                 <div class="code">
                     <pre>
-                        <code>
+                        <code >
             function explode(s) {
                 let newArr = []
                 let a = [...s]
@@ -90,7 +92,7 @@
                 </div>
             </article>
             <article>
-                <h5>Courses:</h5>
+                <h5 id="courses">Courses:</h5>
                 <div class="list4">
                     <ul>
                         <li>Udemy (Basic JS)</li>
@@ -100,13 +102,12 @@
             </article>
         </section>
     </div>
-        <footer class='footer-link'>
-            <div class="logo-img"><img alt="rs-school" src="images/rs_school_js.svg"></div>
-            <div class='gitHub'>
-                <button class="button"><a class="link_to_github" href="https://github.com/Maksim840">Открыть GitHub</a></button>
-            </div>    
-            <div class="date">2021</div>
-        </footer>
+    <footer class='footer-link'>
+        <div class="logo-img"><img alt="rs-school" src="images/rs_school_js.svg"></div>
+        <button class="button"><a class="link_to_github" href="https://github.com/Maksim840">Открыть GitHub</a></button>
+        </div>
+    </footer>
 </body>
+
 
 </html>
